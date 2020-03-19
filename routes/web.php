@@ -19,4 +19,4 @@ Route::get('/', function () {
 
 Route::get('post',function (){
     return view('user/post');
-});
+})->name('post');
