@@ -26,21 +26,30 @@
                         <div class="box-header with-border">
                             <h3 class="box-title">Titles</h3>
                         </div>
-                        <!-- /.box-header -->
+
+                    @include('includes.messages')
+
+
+                    <!-- /.box-header -->
                         <!-- form start -->
-                        <form role="form">
+                        <form role="form" method="post" action="{{route('category.store')}}">
+
+                            {{csrf_field()}}
+
                             <div class="box-body">
 
                                 <div class="col-lg-offset-3 col-lg-6">
                                     <div class="form-group">
                                         <label for="name">Category Title</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Category Title">
+                                        <input type="text" class="form-control" id="name" name="name"
+                                               placeholder="Category Title">
                                     </div>
 
 
                                     <div class="form-group">
                                         <label for="slug">Category Slug</label>
-                                        <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug">
+                                        <input type="text" class="form-control" id="slug" name="slug"
+                                               placeholder="Slug">
                                     </div>
 
                                     <div class="form-group">

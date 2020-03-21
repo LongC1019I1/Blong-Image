@@ -1,10 +1,10 @@
 @extends('admin.layouts.app')
 
 @section('main-content')
-@localhost
+
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-        <section class="content-header">
+        <section class="content-headeStart creating your amazing application!r">
             <h1>
                 Text Editors
                 <small>Advanced form element</small>
@@ -26,21 +26,26 @@
                         <div class="box-header with-border">
                             <h3 class="box-title">Titles</h3>
                         </div>
-                        <!-- /.box-header -->
-                        <!-- form start -->
-                        <form role="form">
+
+                        @include('includes.messages')
+
+                        <form role="form" method="post" action="{{route('tag.store')}}">
+                            {{csrf_field()}}
+
                             <div class="box-body">
 
                                 <div class="col-lg-offset-3 col-lg-6">
                                     <div class="form-group">
                                         <label for="name">Tag Title</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Tag Title">
+                                        <input type="text" class="form-control" id="name" name="name"
+                                               placeholder="Tag Title">
                                     </div>
 
 
                                     <div class="form-group">
                                         <label for="slug">Tag Slug</label>
-                                        <input type="text" class="form-control" id="slug" name="slug" placeholder="Slug">
+                                        <input type="text" class="form-control" id="slug" name="slug"
+                                               placeholder="Slug">
                                     </div>
 
                                     <div class="form-group">

@@ -2,14 +2,27 @@
 
 use Illuminate\Support\Facades\Route;
 
+// USer Routes
 
-Route::get('/', 'User\HomeController@index');
+Route::group(['namespace' => 'User'], function () {
+    Route::get('/', 'HomeController@index');
 
-Route::get('post','User\PostController@index')->name('post');
+    Route::get('post', 'PostController@index')->name('post');
+});
+
+//Route::post('admin/post', 'PostController@store')->name('post.store');
+Route::group(['namespace' => 'Admin'], function () {
+
+    Route::get('admin/home', 'HomeController@index')->name('admin.home');
+    //User Routes
+    Route::resource('admin/user', 'UserController');
+
+    //Post Routes
+    Route::resource('admin/post', 'PostController');
+    //Tag Routes
+    Route::resource('admin/tag', 'TagController');
+    //Category Routes
+    Route::resource('admin/category', 'CategoryController');
+});
 
 
-Route::resource('admin/post','Admin\PostController');
-
-Route::resource('admin/tag','Admin\TagController');
-
-Route::resource('admin/category','Admin\CategoryController');

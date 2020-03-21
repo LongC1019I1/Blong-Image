@@ -4,7 +4,7 @@
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
-            <h1>wysihtml5-toolbar
+            <h1>
                 Text Editors
                 <small>Advanced form element</small>
             </h1>
@@ -25,36 +25,30 @@
                         <div class="box-header with-border">
                             <h3 class="box-title">Titles</h3>
                         </div>
-
-                    @include('includes.messages')
-                    <!-- /.box-header -->
+                        <!-- /.box-header -->
                         <!-- form start -->
-                        <form role="form" method="post" action="{{route('post.store')}}">
-
-                            {{csrf_field()}}
+                        <form role="form">
                             <div class="box-body">
 
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="title">Post Title</label>
-                                        <input type="text" class="form-control" id="title" name="title"
-                                               placeholder="Title">
+                                        <input type="text" class="form-control" id="title" name="title" placeholder="Title">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="subtitle">Post Sub Title</label>
-                                        <input type="text" class="form-control" id="subtitle" name="subtitle"
-                                               placeholder="Sub Title">
+                                        <input type="text" class="form-control" id="subtitle" name="subtitle" placeholder="Sub Title">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="slug">Post Slug</label>
-                                        <input type="text" class="form-control" id="slug" name="slug"
-                                               placeholder="Slug">
+                                        <input type="text" class="form-control" id="slug" name="subtitle" placeholder="Slug">
                                     </div>
                                 </div>
 
                                 <div class="col-lg-6">
+
 
 
                                     <div class="form-group">
@@ -69,6 +63,7 @@
                                         </label>
                                     </div>
                                 </div>
+
 
                             </div>
                             <!-- /.box-body -->
@@ -87,10 +82,10 @@
                                 </div>
                                 <!-- /.box-header -->
                                 <div class="box-body pad">
-
+                                    <form>
                                 <textarea class="textarea" placeholder="Place some text here" name="body"
                                           style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-
+                                    </form>
                                 </div>
                             </div>
 
