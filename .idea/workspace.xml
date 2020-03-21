@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="274d73f1-f27c-4135-bd20-bee7618b88f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/post/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tag/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/messages.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231157_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_18_231157_create_posts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/category/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/slidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/slidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/post/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/tag/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tag/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/tag/tag.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tag/tag.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +192,7 @@
       <workItem from="1584569568781" duration="5769000" />
       <workItem from="1584601696877" duration="14157000" />
       <workItem from="1584667922936" duration="21536000" />
+      <workItem from="1584756739341" duration="5282000" />
     </task>
     <servers />
   </component>
@@ -219,10 +212,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="132" y="188" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1584689546271" />
-    <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl" timestamp="1584502217910">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="698" y="212" width="424" height="509" key="FileChooserDialogImpl" timestamp="1584757907896">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="582" y="175" width="424" height="509" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584502217910" />
+    <state x="698" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584757907896" />
     <state width="757" height="216" key="GridCell.Tab.0.bottom" timestamp="1584509717498">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -244,10 +238,10 @@
     </state>
     <state x="378" y="369" width="354" height="145" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1584693108333" />
     <state x="742" y="431" width="354" height="142" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584627552248" />
-    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584601696795">
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584756738917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584601696795" />
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584756738917" />
     <state x="139" y="187" width="647" height="663" key="find.popup" timestamp="1584694797765">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -257,11 +251,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="238" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584608585960" />
-    <state x="113" y="188" width="672" height="561" key="search.everywhere.popup" timestamp="1584695261665">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1584762082743">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="113" y="188" width="672" height="561" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1584695261665" />
-    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584630250184" />
+    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584762082743" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -281,7 +275,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/admin/category/category.blade.php</url>
-          <line>74</line>
+          <line>75</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

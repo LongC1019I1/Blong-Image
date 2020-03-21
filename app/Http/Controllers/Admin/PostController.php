@@ -11,7 +11,8 @@ class PostController extends Controller
 
     public function index()
     {
-        return view('admin.post.show');
+        $posts = post::all();
+        return view('admin.post.show', compact('posts'));
     }
 
     public function create()
@@ -60,6 +61,8 @@ class PostController extends Controller
 
     public function destroy($id)
     {
-        //
+       post::where('id',$id)->delete();
+       return redirect()->back();
+
     }
 }
