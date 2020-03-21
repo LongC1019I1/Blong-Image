@@ -2,19 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="274d73f1-f27c-4135-bd20-bee7618b88f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2017_07_22_070234_create_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2017_08_04_055752_likes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/post/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/tag/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/user/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/user/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/user/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/user/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/user/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/user/tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231157_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070344_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231639_create_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070731_create_tags_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231750_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070801_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231932_create_category_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070824_create_category_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_232317_create_post_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070923_create_post_tags_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_232452_create_admins_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_071000_create_admins_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_232912_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_071103_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_233110_create_admin_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_071125_create_admin_roles_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/post/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/tag/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tag/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tag/tag.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tag/tag.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,22 +168,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/admin/post" />
-      <recent name="$PROJECT_DIR$/resources/views/admin/category" />
-      <recent name="$PROJECT_DIR$/resources/views/admin/tag" />
-      <recent name="$PROJECT_DIR$/public/admin" />
-      <recent name="$PROJECT_DIR$/public/user" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/includes" />
       <recent name="$PROJECT_DIR$/public/admin" />
       <recent name="$PROJECT_DIR$/app/Model/user" />
       <recent name="$PROJECT_DIR$/resources/views/user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/post" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/category" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/tag" />
+      <recent name="$PROJECT_DIR$/public/admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -192,7 +207,7 @@
       <workItem from="1584569568781" duration="5769000" />
       <workItem from="1584601696877" duration="14157000" />
       <workItem from="1584667922936" duration="21536000" />
-      <workItem from="1584756739341" duration="5282000" />
+      <workItem from="1584756739341" duration="17563000" />
     </task>
     <servers />
   </component>
@@ -233,11 +248,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="757" height="216" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584509717498" />
-    <state x="378" y="369" width="354" height="142" key="NewPhpFileDialog" timestamp="1584693108333">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="742" y="431" width="354" height="142" key="NewPhpFileDialog" timestamp="1584764827896">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="378" y="369" width="354" height="145" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1584693108333" />
-    <state x="742" y="431" width="354" height="142" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584627552248" />
+    <state x="742" y="431" width="354" height="142" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584764827896" />
     <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1584756738917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -251,11 +266,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="238" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584608585960" />
-    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1584762082743">
+    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1584784094694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="113" y="188" width="672" height="561" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1584695261665" />
-    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584762082743" />
+    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584784094694" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,6 +292,10 @@
           <url>file://$PROJECT_DIR$/resources/views/admin/category/category.blade.php</url>
           <line>75</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Model/user/tag.php</url>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
