@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 Route::group(['namespace' => 'User'], function () {
     Route::get('/', 'HomeController@index');
 
-    Route::get('post', 'PostController@post')->name('post');
+    Route::get('post/{post?}', 'PostController@post')->name('post');
 });
 
 //Route::post('admin/post', 'PostController@store')->name('post.store');

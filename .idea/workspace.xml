@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="274d73f1-f27c-4135-bd20-bee7618b88f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2017_07_22_070234_create_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2017_08_04_055752_likes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/post/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tag/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/user/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/user/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/user/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/user/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/user/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/user/tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231157_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070344_create_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231639_create_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070731_create_tags_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231750_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070801_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_231932_create_category_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070824_create_category_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_232317_create_post_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_070923_create_post_tags_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_232452_create_admins_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_071000_create_admins_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_232912_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_071103_create_roles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_18_233110_create_admin_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2017_06_19_071125_create_admin_roles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tag/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tag/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +184,8 @@
       <workItem from="1584569568781" duration="5769000" />
       <workItem from="1584601696877" duration="14157000" />
       <workItem from="1584667922936" duration="21536000" />
-      <workItem from="1584756739341" duration="17563000" />
+      <workItem from="1584756739341" duration="19841000" />
+      <workItem from="1584839921069" duration="619000" />
     </task>
     <servers />
   </component>
@@ -266,11 +244,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="238" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584608585960" />
-    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1584784094694">
+    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1584840640792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="113" y="188" width="672" height="561" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1584695261665" />
-    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584784094694" />
+    <state x="135" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584840640792" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

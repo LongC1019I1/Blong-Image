@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    public function post(post $slug)
+    public function post(post $post)
     {
-        return view('user.post');
+        return view('user.post',compact('post'));
     }
 
 }
